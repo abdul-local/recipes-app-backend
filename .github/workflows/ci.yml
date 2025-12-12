@@ -25,8 +25,12 @@ jobs:
       - name: Install dependencies
         run: npm ci # Use 'npm ci' for clean installs in CI environments
 
+
       - name: Build TypeScript project
         run: npm run build # Transpiles TS to JS (e.g., outputs to a 'dist' folder)
 
       - name: Run Tests
         run: npm test # Executes your test suite (e.g., Jest)
+
+      
+  
